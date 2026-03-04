@@ -1,7 +1,7 @@
 const projectContainer = document.querySelector(".project-card-container");
 const hamburger = document.getElementById("hamburger");
 const navLinks = document.getElementById("nav-links");
-import  projects  from "/src/script/data.js";
+import projects from "./data.js";
 
 hamburger.addEventListener("click", () => {
     navLinks.classList.toggle("active");
