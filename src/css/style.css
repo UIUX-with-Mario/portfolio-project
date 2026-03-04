@@ -358,7 +358,7 @@ span.material-symbols-outlined.skills-icon {
     border: none;
     border-radius: 100px;
     box-shadow: none;
-    padding: 0px;
+    padding: 10px;
 }
 
 .about-me-text{
@@ -764,6 +764,16 @@ button:active,
 }
 
 @media (min-width: 1000px) {
+
+    html{
+        font-size: 105%;
+    }
+
+    .logo p{
+    font-size: 1.3rem;
+    font-weight: 700;
+    }
+
     .home-box,
     .about-box,
     .project-box,
@@ -788,12 +798,8 @@ button:active,
         height: 400px;
     }
 
-    h1{
-        font-size: 2.4rem;
-    }
-
-    h2{
-        font-size: 1.7rem;
+    .hero-image-container{
+        padding-left: 60px;
     }
 
     .hero-img {
